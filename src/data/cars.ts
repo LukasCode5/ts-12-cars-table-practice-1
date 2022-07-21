@@ -1,9 +1,4 @@
-export interface Car {
-  id: string;
-  price: number;
-  year: number;
-  modelId: string;
-}
+import Car from '../types/car';
 
 export const cars: Car[] = [
   {

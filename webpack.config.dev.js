@@ -9,6 +9,7 @@ module.exports = merge(webpackCommon, {
     static: {
       directory: path.join(__dirname, 'public'),
     },
+    watchFiles: ['src/**/*.ts', 'public/**/*'],
     open: true,
     compress: true,
     port: 3000,
