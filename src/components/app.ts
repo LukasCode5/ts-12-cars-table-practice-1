@@ -1,6 +1,8 @@
 class App {
   private htmlElement: HTMLElement;
 
+  // private carsCollection: CarCollection;
+
   constructor(selector: string) {
     const foundElement = document.querySelector<HTMLElement>(selector);
 
