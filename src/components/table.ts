@@ -61,8 +61,6 @@ export default class MyTable {
     this.createTableBodyRows();
     this._htmlTable.append(this.thead, this.tbody);
     this._htmlTable.className = 'table table-striped';
-    const row = this.makeOneRow(this.data[0]);
-    console.log('row ===', row);
     // sukurti table body
     // grazinti arba atvaizduoti table
   }
